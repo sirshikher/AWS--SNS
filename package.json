@@ -1,17 +1,24 @@
 {
-  "name": "aws-sns-sms-with-nodejs",
+  "name": "express-es6-boilerplate",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node --experimental-modules ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sean Bradley",
-  "license": "MIT",
+  "author": "Shikher Mishra",
   "dependencies": {
-    "aws-sdk": "^2.480.0",
-    "dotenv": "^8.0.0",
-    "express": "^4.17.1"
+    "aws-sdk": "^2.651.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "node": "^13.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0"
   }
 }
